@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 import * as path from 'path';
-
+import * as fs from 'fs';
 export const mergeSelectedFiles = vscode.commands.registerCommand('extension.mergeSelectedFiles', async () => {
 	try {
 		const workspaceFolders = vscode.workspace.workspaceFolders;

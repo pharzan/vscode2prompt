@@ -2,13 +2,23 @@
   "name": "vscode2prompt",
   "displayName": "vscode2prompt",
   "description": "a vscode extension to merge selected files from vscode and put them in a single file ready to be used in chat gpt",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "author": {
+    "name": "Farzan Tinati",
+    "email": "farzan.tinati@gmail.com"
+  },
+  "publisher": "farzan-tinati",
+
   "engines": {
     "vscode": "^1.94.0"
   },
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pharzan/vscode2prompt.git"
+  },
   "icon": "assets/logo.jpeg",  
   "activationEvents": [
     "onCommand:extension.mergeSelectedFiles",

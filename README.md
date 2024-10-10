@@ -2,7 +2,8 @@
 
 ## Description
 
-[`vscode2prompt`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Fpharzan%2Fdevelop%2Fpharzan%2Fvscode2prompt%2Fpackage.json%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A1%2C%22character%22%3A11%7D%7D%5D%2C%229adb39df-f042-42f6-ad01-4bdc51cc437a%22%5D "Go to definition") is a Visual Studio Code extension that allows you to merge selected files or open tabs into a single file. This is particularly useful for preparing content to be used in chat applications like ChatGPT.
+[`vscode2prompt`](https://marketplace.visualstudio.com/items?itemName=farzan-tinati.vscode2prompt "Go to definition") is a Visual Studio Code extension that allows you to merge selected files or open tabs into a single file. This is particularly useful for preparing content to be used in chat applications like ChatGPT.
+inspired by [code2prompt](https://github.com/mufeedvh/code2prompt)
 
 ## Features
 
@@ -10,6 +11,8 @@
 - **Merge Open Tabs**: Merge the contents of all open text tabs into a single virtual document.
 
 <img src='./assets/demo.gif' >
+
+
 
 ## Installation
 
